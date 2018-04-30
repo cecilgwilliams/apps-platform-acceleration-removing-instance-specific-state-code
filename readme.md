@@ -1,5 +1,7 @@
 # Remove App State Lab
 
+Repo used for Remove Instance Specific State lab
+
 This is a small servlet based application that uses the session to store some state.
 This is not particularly cloud friendly because the state lives in each app process.
 If we scale our app horizontally, then the user will only be logged in if the load balancer
